@@ -2,8 +2,8 @@
 Repositório do desafio sobre o Amazon DynamoDB no módulo Cloud Computer
 
 ### Serviço utilizado
-  - ![Amazon DynamoDB](https://aws.amazon.com/pt/dynamodb/)
-  - ![Amazon CLI](https://aws.amazon.com/pt/cli/) para execução em linha de comando
+  - [Amazon DynamoDB](https://aws.amazon.com/pt/dynamodb/)
+  - [Amazon CLI](https://aws.amazon.com/pt/cli/) para execução em linha de comando
 
 ### Comandos para execução do experimento:
 

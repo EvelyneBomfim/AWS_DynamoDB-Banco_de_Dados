@@ -2,8 +2,8 @@
 Repositório para o live coding do dia 30/09/2021 sobre o Amazon DynamoDB
 
 ### Serviço utilizado
-  - Amazon DynamoDB
-  - Amazon CLI para execução em linha de comando
+  - [Amazon DynamoDB] (https://aws.amazon.com/pt/dynamodb/)
+  - [Amazon CLI] (https://aws.amazon.com/pt/cli/) para execução em linha de comando
 
 ### Comandos para execução do experimento:
 

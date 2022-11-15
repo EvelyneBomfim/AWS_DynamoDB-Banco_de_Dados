@@ -12,7 +12,7 @@ Há algumas diferenças entre os comandos no Linux e no Windows. Por exemplo: as
 
 - Criar uma tabela
 
-~~~Linux
+~~~Unix
 ```
 aws dynamodb create-table \
     --table-name Music \

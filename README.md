@@ -12,7 +12,7 @@ Há algumas diferenças entre os comandos no Linux e no Windows. Por exemplo: as
 
 - Criar uma tabela
 
-~~~Unix
+~~~No Linux
 ```
 aws dynamodb create-table \
     --table-name Music \
@@ -25,8 +25,8 @@ aws dynamodb create-table \
     --provisioned-throughput \
         ReadCapacityUnits=10,WriteCapacityUnits=5
 ```
-
-~~~Windows
+~~~
+-- No Windows
 ```
 aws dynamodb create-table --table-name Music --attribute-definitions AttributeName=Artist,AttributeType=S AttributeName=SongTitle,AttributeType=S --key-schema   AttributeName=Artist,KeyType=HASH AttributeName=SongTitle,KeyType=RANGE --provisioned-throughput ReadCapacityUnits=10,WriteCapacityUnits=5
 ```

@@ -1,5 +1,6 @@
 # DynamoDB
-Repositório do desafio sobre o Amazon DynamoDB no módulo Cloud Computer
+Criação de um banco de dados no DynamoDB. Inclusão de dados e queries pelo index.
+Repositório do desafio sobre o Amazon DynamoDB no módulo Cloud Computer.
 
 ## Serviço utilizado
   - [Amazon DynamoDB](https://aws.amazon.com/pt/dynamodb/)

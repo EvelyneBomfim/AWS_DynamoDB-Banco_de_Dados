@@ -10,6 +10,8 @@ Repositório do desafio sobre o Amazon DynamoDB no módulo Cloud Computer
 
 - Criar uma tabela
 
+No Linux
+
 ```
 aws dynamodb create-table \
     --table-name Music \
@@ -21,6 +23,12 @@ aws dynamodb create-table \
         AttributeName=SongTitle,KeyType=RANGE \
     --provisioned-throughput \
         ReadCapacityUnits=10,WriteCapacityUnits=5
+```
+
+No Windows
+
+```
+aws dynamodb create-table --table-name Music --attribute-definitions AttributeName=Artist,AttributeType=S AttributeName=SongTitle,AttributeType=S --key-schema   AttributeName=Artist,KeyType=HASH AttributeName=SongTitle,KeyType=RANGE --provisioned-throughput ReadCapacityUnits=10,WriteCapacityUnits=5
 ```
 
 - Inserir um item
